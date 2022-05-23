@@ -1,0 +1,53 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit:wght@400;500&family=Train+One&display=swap');
+
+
+
+#home {
+    background-image: 
+        /*go to pixel and right click then inspect*/
+        url(https://images.pexels.com/photos/2674271/pexels-photo-2674271.jpeg?auto=compress&amp)
+    ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.welcome{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Monoton', cursive;
+}
+
+h1,h2,h3,h4, .navbar-brand {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Train One', cursive;
+}
+
+.prag1{
+    font-family: 'Audiowide', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+#tools {
+
+    background-image: 
+        /*go to pixel and F12*/
+        url(https://images.pexels.com/photos/51415/pexels-photo-51415.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+    ;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }   
+    
+#gmap_canvas {
+    height: 35vh;
+    width: 100%;
+}
+
+
+#coninfo{
+    background-image: linear-gradient(lightsteelblue, dimgray, lightsteelblue);
+    background-size: cover;
+}    
