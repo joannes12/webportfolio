@@ -8,7 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="./index.css">
 	<!-- Bootsrap Link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<!-- footer link -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 </head>
 <body>
 
@@ -44,26 +45,21 @@
   		    	</ul>
   		 	 </div>
   			</nav>
+<section class="container-fluid bg-white py-5" id="home">
+    <div class="container bg-dark rounded-3 py-md-5 my-md-3 py-lg-5 my-lg-5" >
+            <div class="row text-center">
+	                <div class="order-lg-1 order-sm-2 col-sm-12 col-md-12 col-lg-6">
+		                <h1 class="welcome text-white">Welcome to my Home page</h1>
+  						<h4 class="my-2 text-left text-warning">私のホームページへようこそ</h4>
+		                 <p class="text-justify mb-5 text-white" >Hello there! Thanks for viewing my humble webpage. I am new to programming and I would like to explore more as I go along my journey to this new field that I want to pursue. My first encounter with programing was during college but I went to a different field in terms of acquiring a job and I haven't yet known the importance of programming but not until I join a bootcamp.</p>
+					</div>
+				<div class="order-lg-2 order-sm-1 col-sm-12 col-md-12 col-lg-6">
+                    <img class="img-fluid shadow rounded-3" src="./images/me.jpeg" width="400" height="400">
+                </div>
+            </div>
+        </div>
+</section>
 
-  		<!-- Navbar section end -->
-  		<!-- container -->
-  			<div class="container">	
-  					<div class="row text-white">
-  						<!-- jumbotron -->
-  						<div class="jumbotron my-4 d-flex flex-column py-0 align-items-center" id="home">
-  						<div class="col-md-4 text-center">
-  								<img src="./images/me.jpeg" class="img-fluid rounded-circle border border-white ">		
-  						</div>
-  							<h1 class="welcome">Welcome to my Home page</h1>
-  							<h4 class="my-2 text-center text-white">私のホームページへようこそ</h4>
-  							<div class="col-md-8">
-  								<p class="text-justify my-2 text-white">
-  									Hi there! Thanks for viewing my humble webpage. I am new to programming and I would like to explore more as I go along my journey to this new field that I want to pursue. My first encounter with programing was during college but I went to a different field in terms of acuiring a job and I haven't yet known the importance of programming especially now a days.
-  								</p>
-  							</div>
-  						</div>
-  					</div>
-</div>
 <!-- My Projects -->
 			<h1 class="mt-5 mb-1 d-flex justify-content-center" >My Projects</h1>
 			<div class="card-deck my-5 justify-content-center" id="projects" >
@@ -78,11 +74,11 @@
 			    </div>
 			  </div>
 			  <div class="card col-md-3 px-0">
-			    <img src="./images/vlog.jpg" class="card-img-top img-fluid" alt="images" width="10" height="200">
+			    <img src="./images/Business.crisis.png" class="card-img-top img-fluid" alt="images" width="10" height="200">
 			    <div class="card-body">
-			      <h5 class="card-title">My short pov Vlog</h5>
+			      <h5 class="card-title">Product Stock Control and Monitoring</h5>
 			      <p class="card-text">
-			             Now a days that people are spending more time at home, travel and experience vlogs are a hit. For the purpose of doing something fun.
+			             Exercising better stock controls is the best way to help any business to be on track. That is why proper stock control and inventory monitoring increases the efficiency and decrease waste by puschasing stock that is sure to sell sooner or later.
 			      </p>
 			      <p class="card-text"><small class="text-muted">...watch out for more</small></p>
 			    </div>
@@ -102,7 +98,7 @@
 				    <img class=" m-1 rounded" width="80" src="images/logo-gitlab-ci-cd.png"/>
 				</div>
 			</div>
-		</div>
+</div>
 
 
 <div class="jumbotron my-4 d-flex flex-column py-5 " id="coninfo">
@@ -113,7 +109,7 @@
 			<div class="row">
 			    <div class="col-md-6 my-4">
 			        <h4 class="text-center my-4">Visit Us</h4>
-			        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=abreeza%20ayala%20davao%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=abreeza%20ayala%20davao%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" height="40" width="40"></iframe>
 
 			    </div>
 			    <div class="col-md-6 my-4">
@@ -173,54 +169,45 @@
   <div class="container p-4 pb-0">
     <section class="mb-4">
       <!-- Facebook -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="fa-brands fa-facebook-square"></i>
-    </a>
+      	<a 
+      		class="btn btn-primary btn-floating m-1"
+        	style="background-color: #1a75ff;"
+      		href="#" target="_blank" class="icon-facebook">
+   		 	<i class="fab fa-facebook-f"></i>
+  	 	</a>
       <!-- Google -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="fa-brands fa-google"></i>
-    </a>
-      <!-- Github -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="fa-brands fa-gitlab"></i>
+      	<a 
+      		class="btn btn-primary btn-floating m-1"
+      		style="background-color: #db4a39;"
+      		href="#" target="_blank" class="icon-google_plus">
+    		<i class="fab fa-google-plus-g"></i>
+  		</a>
+      <!-- linkedin -->
+      	<a
+        	class="btn btn-primary btn-floating m-1"
+        	style="background-color: #0072b1;"
+        	href="#" target="_blank" class="icon-linkedin">
+    		<i class="fab fa-linkedin-in"></i>
+  	  	</a>
+    	<a 
+    		class="btn btn-primary btn-floating m-1"
+        	style="background-color: #00acee;"
+        	href="#" target="_blank" class="icon-instagram">
+    	    <i class="fab fa-instagram"></i>
     	</a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
-    <a class="text-white" href="https://fontawesome.com/">Fontawesome</a>
-  </div>
-  <!-- Copyright -->
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
+    	<a 	
+    		class="btn btn-primary btn-floating m-1"
+            style="background-color: #34526f;"
+    		href="#" target="_blank" class="icon-tumblr">
+    	    <i class="fab fa-tumblr"></i>
+    	</a>
+    
+	</div>
 </footer>
-</div>
+
 <!-- End of .container -->
 
- 	<!-- <footer>
- 		<span>Terms of Services</span>
- 		<span>|</span>	
- 		<span>Privacy Policy</span>
- 		<span>|</span>
- 	</footer> -->
-
-
+ 	
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
